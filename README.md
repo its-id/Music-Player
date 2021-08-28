@@ -24,4 +24,4 @@ using HTML and CSS only.
  * Please don't expect the buttons to work except the ones acting as the link to other webpages. I don't have knowledge of the backend yet 😞. I will fix that soon. Till that time, you have to wait 🙏.
  * I tried my best to make website responsive for smaller or larger screens. Let me know if extra changes are required. 
 
-***Thanks a lot for visiting*** . 😊# Music-Player
+***Thanks a lot for visiting*** . 😊
