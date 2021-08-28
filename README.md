@@ -10,10 +10,10 @@ as well. 😊😄
 
 ## Some Glimpse of the website
 
-![alt text](./images/glimpse.jpg)
+https://user-images.githubusercontent.com/60315832/131210561-e0d7b81a-554e-40f9-9c60-45534aef17e9.mp4
 
 
-*You can visit 👉 [here](https://indrakant-dana.github.io/)
+*You can visit 👉 [here](https://indrakant-dana.github.io/music-player)
 to view the website.* 💛
 
 ## 
