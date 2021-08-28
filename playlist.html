@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Indrakant's Music Player</title>
+	<link rel="stylesheet" type="text/css" href="./playlist-style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+
+	<div class="nav-container">
+		<div class = "logo"><a href="index.html"><img src = "./Images/new.gif" style = "width: 100px;"></a></div>
+		<div class = "favourites"><a href="#">Favourites</a></div>
+		<div class = "search-container">
+			<form>
+				<div class="search-wrapper">
+					<input type = "search" id = "gsearch" name = "gsearch" placeholder="	Search..">
+					<div class = "search-button"><i class="fas fa-search"></i></div>
+					<div class = "search-mic"><i class="fas fa-microphone"></i></div>
+				</div>
+			</form>
+		</div>
+		<div class = "bell">
+			<div class = "bell-icon"><a href="#"><i class="fas fa-bell fa-2x"></i></a></div>
+			<div class="red-icon"><img src="./Images/red_dot.png"></div>
+		</div>
+		<div class = "profile-pic"><a href=""><img src="./Images/dp.png"></a></div>
+		</div>
+	</div>
+
+
+	<div class = "home-screen">
+		<div class = "main">
+			<div class="poster-container">
+				<div class = "image-container"></div>
+				<div class= "image-details">
+					<div class="name-followers">
+						<div class="name">
+							<h2>ColdPlay</h2>
+							<p class="tagline">British Band</p>
+						</div>
+						<div class="followers-count">88,511 Followers</div>
+					</div>
+					
+					<div class="description">Coldplay are a British rock band formed in London in 1996. Vocalist, rhythm guitarist and pianist Chris Martin, lead guitarist Jonny Buckland, bassist Guy Berryman, and drummer Will Champion met at University College London and began playing music together from 1996 to 1998, first calling themselves Pectoralz and then Starfish before finally changing their name to Coldplay.</div>
+					<div class="play-all-button">
+						<button class="play-button">Play Now</button>
+						<a href="#"><span>Follow</span></a>
+					</div>
+					<div class="other-details">247 Tracks | 128 Albums</div>
+				</div>
+			</div>
+
+			<div class="playlist-container">
+				
+
+				<!-- Song 1 -->
+				<div class="songs-container bg" style="width:95%; height: 10vh; margin: 1% auto;">
+					<div class = "current-similar-song" style="width:55vh;">
+						<span style="color: #cfcfcf;">01</span>
+						<div class="song-thumbnail bg-wht" style="width:15%; height:8vh;">
+							<div class = "song-play" style="top:30%; left:30%;"><a href="#player"><i class="fas fa-play fa-lg"></i></a></div>
+							<img src="./Images/Artists/coldPlay.jfif">
+						</div>
+						<div class="song-name">
+							<span style="font-family: Poppins SemiBold, sans-serif;">Hymn For the Weekend</span><br>
+							<span style="color: #cfcfcf; font-size: 0.9rem;">Coldplay</span>
+						</div>
+					</div>
+					<span style="color: #cfcfcf;">3:14</span>
+					<div class="icons">
+						<a href=""><i class="far fa-heart fa-lg"></i></a>
+						<a href=""><i class="fas fa-plus fa-lg"></i></a>
+					</div>
+				</div>
+
+
+				<!-- Song 2 -->
+				<div class="songs-container bg" style="width:95%; height: 10vh; margin: 1% auto;">
+					<div class = "current-similar-song" style="width:55vh;">
+						<span style="color: #cfcfcf;">02</span>
+						<div class="song-thumbnail bg-wht" style="width:15%; height:8vh;">
+							<div class = "song-play" style="top:30%; left:30%;"><a href="#player"><i class="fas fa-play fa-lg"></i></a></div>
+							<img src="./Images/Artists/coldPlay.jfif">
+						</div>
+						<div class="song-name">
+							<span style="font-family: Poppins SemiBold, sans-serif;">A Sky Full Of Stars</span><br>
+							<span style="color: #cfcfcf; font-size: 0.9rem;">Coldplay</span>
+						</div>
+					</div>
+					<span style="color: #cfcfcf;">3:14</span>
+					<div class="icons">
+						<a href=""><i class="far fa-heart fa-lg"></i></a>
+						<a href=""><i class="fas fa-plus fa-lg"></i></a>
+					</div>
+				</div>
+
+				<div class="songs-container bg" style="width:95%; height: 10vh; margin: 1% auto;">
+					<div class = "current-similar-song" style="width:55vh;">
+						<span style="color: #cfcfcf;">03</span>
+						<div class="song-thumbnail bg-wht" style="width:15%; height:8vh;">
+							<div class = "song-play" style="top:30%; left:30%;"><a href="#player"><i class="fas fa-play fa-lg"></i></a></div>
+							<img src="./Images/Artists/coldPlay.jfif">
+						</div>
+						<div class="song-name">
+							<span style="font-family: Poppins SemiBold, sans-serif;">Higher Power</span><br>
+							<span style="color: #cfcfcf; font-size: 0.9rem;">Coldplay</span>
+						</div>
+					</div>
+					<span style="color: #cfcfcf;">3:14</span>
+					<div class="icons">
+						<a href=""><i class="far fa-heart fa-lg"></i></a>
+						<a href=""><i class="fas fa-plus fa-lg"></i></a>
+					</div>
+				</div>
+
+				<div class="songs-container bg" style="width:95%; height: 10vh; margin: 1% auto;">
+					<div class = "current-similar-song" style="width:55vh;">
+						<span style="color: #cfcfcf;">04</span>
+						<div class="song-thumbnail bg-wht" style="width:15%; height:8vh;">
+							<div class = "song-play" style="top:30%; left:30%;"><a href="#player"><i class="fas fa-play fa-lg"></i></a></div>
+							<img src="./Images/Artists/coldPlay.jfif">
+						</div>
+						<div class="song-name">
+							<span style="font-family: Poppins SemiBold, sans-serif;">Something Just Like This</span><br>
+							<span style="color: #cfcfcf; font-size: 0.9rem;">Coldplay</span>
+						</div>
+					</div>
+					<span style="color: #cfcfcf;">3:14</span>
+					<div class="icons">
+						<a href=""><i class="far fa-heart fa-lg"></i></a>
+						<a href=""><i class="fas fa-plus fa-lg"></i></a>
+					</div>
+				</div>
+
+				<div class="songs-container bg" style="width:95%; height: 10vh; margin: 1% auto;">
+					<div class = "current-similar-song" style="width:55vh;">
+						<span style="color: #cfcfcf;">05</span>
+						<div class="song-thumbnail bg-wht" style="width:15%; height:8vh;">
+							<div class = "song-play" style="top:30%; left:30%;"><a href="#player"><i class="fas fa-play fa-lg"></i></a></div>
+							<img src="./Images/Artists/coldPlay.jfif">
+						</div>
+						<div class="song-name">
+							<span style="font-family: Poppins SemiBold, sans-serif;">Hurts Like Heaven</span><br>
+							<span style="color: #cfcfcf; font-size: 0.9rem;">Coldplay</span>
+						</div>
+					</div>
+					<span style="color: #cfcfcf;">3:14</span>
+					<div class="icons">
+						<a href=""><i class="far fa-heart fa-lg"></i></a>
+						<a href=""><i class="fas fa-plus fa-lg"></i></a>
+					</div>
+				</div>
+
+				<div class="songs-container bg" style="width:95%; height: 10vh; margin: 1% auto;">
+					<div class = "current-similar-song" style="width:55vh;">
+						<span style="color: #cfcfcf;">06</span>
+						<div class="song-thumbnail bg-wht" style="width:15%; height:8vh;">
+							<div class = "song-play" style="top:30%; left:30%;"><a href="#player"><i class="fas fa-play fa-lg"></i></a></div>
+							<img src="./Images/Artists/coldPlay.jfif">
+						</div>
+						<div class="song-name">
+							<span style="font-family: Poppins SemiBold, sans-serif;">Magic</span><br>
+							<span style="color: #cfcfcf; font-size: 0.9rem;">Coldplay</span>
+						</div>
+					</div>
+					<span style="color: #cfcfcf;">3:14</span>
+					<div class="icons">
+						<a href=""><i class="far fa-heart fa-lg"></i></a>
+						<a href=""><i class="fas fa-plus fa-lg"></i></a>
+					</div>
+				</div>
+
+				<div class="songs-container bg" style="width:95%; height: 10vh; margin: 1% auto;">
+					<div class = "current-similar-song" style="width:55vh;">
+						<span style="color: #cfcfcf;">07</span>
+						<div class="song-thumbnail bg-wht" style="width:15%; height:8vh;">
+							<div class = "song-play" style="top:30%; left:30%;"><a href="#player"><i class="fas fa-play fa-lg"></i></a></div>
+							<img src="./Images/Artists/coldPlay.jfif">
+						</div>
+						<div class="song-name">
+							<span style="font-family: Poppins SemiBold, sans-serif;">Oceans</span><br>
+							<span style="color: #cfcfcf; font-size: 0.9rem;">Coldplay</span>
+						</div>
+					</div>
+					<span style="color: #cfcfcf;">3:14</span>
+					<div class="icons">
+						<a href=""><i class="far fa-heart fa-lg"></i></a>
+						<a href=""><i class="fas fa-plus fa-lg"></i></a>
+					</div>
+				</div>
+
+				<div class="songs-container bg" style="width:95%; height: 10vh; margin: 1% auto;">
+					<div class = "current-similar-song" style="width:55vh;">
+						<span style="color: #cfcfcf;">08</span>
+						<div class="song-thumbnail bg-wht" style="width:15%; height:8vh;">
+							<div class = "song-play" style="top:30%; left:30%;"><a href="#player"><i class="fas fa-play fa-lg"></i></a></div>
+							<img src="./Images/Artists/coldPlay.jfif">
+						</div>
+						<div class="song-name">
+							<span style="font-family: Poppins SemiBold, sans-serif;">Old Friends</span><br>
+							<span style="color: #cfcfcf; font-size: 0.9rem;">Coldplay</span>
+						</div>
+					</div>
+					<span style="color: #cfcfcf;">3:14</span>
+					<div class="icons">
+						<a href=""><i class="far fa-heart fa-lg"></i></a>
+						<a href=""><i class="fas fa-plus fa-lg"></i></a>
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+
+
+
+
+
+		<div class = "sidebar-contain-sm">
+			<label for="sidebar-song-sm">
+				<div class="sm-opener">Recent Plays</div>
+			</label>
+			<input type="checkbox" id="sidebar-song-sm">
+			<div class = "sidebar">
+
+			<!-- Similar Artists -->
+			<div class ="class-header">
+				<div><h3>Similar Artists</h3></div>
+				<div style="font-size: 0.7rem;"><a href=""><span> View All</span></a></div>
+			</div>
+			<div class="song-scroller">
+
+				<!-- Song1 -->
+				<div class = "songs-container bg-wht">
+					<div class = "current-similar-song">
+						<div class="song-thumbnail">
+							<div class = "song-play" style="top:30%; left:30%;"><a href="#player"><i class="fas fa-play fa-lg"></i></a></div>
+							<img src="./Images/PlayList/after.jpg">
+						</div>
+						<div class="song-name">
+							<span style="font-family: Poppins SemiBold, sans-serif;">The Weeknd</span><br>
+							<span style="color: #cfcfcf; font-size: 0.9rem;">Pop Singer</span>
+						</div>
+					</div>
+					<div class="heart"><a href=""><i class="far fa-heart"></i></a></div>
+				</div>
+
+				<!-- Song2 -->
+				<div class = "songs-container">
+					<div class = "current-similar-song">
+						<div class="song-thumbnail bg-blue">
+							<div class = "song-play" style="top:30%; left:30%;"><a href="#player"><i class="fas fa-play fa-lg"></i></a></div>
+							<img src="./Images/Artists/imagine-dragons.jpg">
+						</div>
+						<div class="song-name">
+							<span style="font-family: Poppins SemiBold, sans-serif;">Imagine Dragons</span><br>
+							<span style="color: #cfcfcf; font-size: 0.9rem;">Pop Band</span>
+						</div>
+					</div>
+					<div class="heart"><a href=""><i class="far fa-heart"></i></a></div>
+				</div>
+
+
+				<!-- Song3 -->
+				<div class = "songs-container bg-rd">
+					<div class = "current-similar-song">
+						<div class="song-thumbnail">
+							<div class = "song-play" style="top:30%; left:30%;"><a href="#player"><i class="fas fa-play fa-lg"></i></a></div>
+							<img src="./Images/Artists/posty.png">
+						</div>
+						<div class="song-name">
+							<span style="font-family: Poppins SemiBold, sans-serif;">Post Malone</span><br>
+							<span style="color: #cfcfcf; font-size: 0.9rem;">Pop Singer</span>
+						</div>
+					</div>
+					<div class="heart"><a href=""><i class="far fa-heart"></i></a></div>
+				</div>
+
+				<!-- Song4 -->
+				<div class = "songs-container bg-wht">
+					<div class = "current-similar-song">
+						<div class="song-thumbnail">
+							<div class = "song-play" style="top:30%; left:30%;"><a href="#player"><i class="fas fa-play fa-lg"></i></a></div>
+							<img src="./Images/Artists/billie eilish.jpg">
+						</div>
+						<div class="song-name">
+							<span style="font-family: Poppins SemiBold, sans-serif;">Billie Eilish</span><br>
+							<span style="color: #cfcfcf; font-size: 0.9rem;">Pop Singer</span>
+						</div>
+					</div>
+					<div class="heart"><a href=""><i class="far fa-heart"></i></a></div>
+				</div>
+			</div>
+
+
+
+
+
+
+
+			<!-- Recently Played  -->
+			<div class ="class-header">
+				<div><h3>Recently Played</h3></div>
+				<div style="font-size: 0.7rem;"><a href=""><span> View All</span></a></div>
+			</div>
+			<div class="song-scroller">
+
+				<!-- Song1 -->
+				<div class = "songs-container bg-blue">
+					<span style="color: #cfcfcf;">01</span>
+					<div class = "current-similar-song wider-width">
+						<div class="song-thumbnail">
+							<div class = "song-play" style="top:30%; left:30%;"><a href="#player"><i class="fas fa-play fa-lg"></i></a></div>
+							<img src="./Images/Songs/DaBaby.jpg">
+						</div>
+						<div class="song-name">
+							<span style="font-family: Poppins SemiBold, sans-serif;">Rockstar</span><br>
+							<span style="color: #cfcfcf; font-size: 0.9rem;">Da Baby</span>
+						</div>
+					</div>
+					<div class="heart"><a href=""><i class="far fa-heart"></i></a></div>
+				</div>
+
+				<!-- Song2 -->
+				<div class = "songs-container bg-wht">
+					<span style="color: #cfcfcf;">02</span>
+					<div class = "current-similar-song wider-width">
+						<div class="song-thumbnail">
+							<div class = "song-play" style="top:30%; left:30%;"><a href="#player"><i class="fas fa-play fa-lg"></i></a></div>
+							<img src="./Images/Songs/dynamite.jpg">
+						</div>
+						<div class="song-name">
+							<span style="font-family: Poppins SemiBold, sans-serif;">Dynamite</span><br>
+							<span style="color: #cfcfcf; font-size: 0.9rem;">BTS</span>
+						</div>
+					</div>
+					<div class="heart"><a href=""><i class="far fa-heart"></i></a></div>
+				</div>
+
+
+				<!-- Song3 -->
+				<div class = "songs-container bg-rd">
+					<span style="color: #cfcfcf;">04</span>
+					<div class = "current-similar-song wider-width">
+						<div class="song-thumbnail">
+							<div class = "song-play" style="top:30%; left:30%;"><a href="#player"><i class="fas fa-play fa-lg"></i></a></div>
+							<img src="./Images/Songs/falling.jpg">
+						</div>
+						<div class="song-name">
+							<span style="font-family: Poppins SemiBold, sans-serif;">Falling</span><br>
+							<span style="color: #cfcfcf; font-size: 0.9rem;">Trevor Daniel</span>
+						</div>
+					</div>
+					<div class="heart"><a href=""><i class="far fa-heart"></i></a></div>
+				</div>
+
+				<!-- Song4 -->
+				<div class = "songs-container bg-wht">
+					<span style="color: #cfcfcf;">03</span>
+					<div class = "current-similar-song wider-width">
+						<div class="song-thumbnail">
+							<div class = "song-play" style="top:30%; left:30%;"><a href="#player"><i class="fas fa-play fa-lg"></i></a></div>
+							<img src="./Images/PlayList/after.jpg">
+						</div>
+						<div class="song-name">
+							<span style="font-family: Poppins SemiBold, sans-serif;">Blinding Lights</span><br>
+							<span style="color: #cfcfcf; font-size: 0.9rem;">The Weeknd</span>
+						</div>
+					</div>
+					<div class="heart"><a href=""><i class="far fa-heart"></i></a></div>
+				</div>
+
+				<!-- Song5 -->
+				<div class = "songs-container bg-rd">
+					<span style="color: #cfcfcf;">05</span>
+					<div class = "current-similar-song wider-width">
+						<div class="song-thumbnail">
+							<div class = "song-play" style="top:30%; left:30%;"><a href="#player"><i class="fas fa-play fa-lg"></i></a></div>
+							<img src="./Images/Songs/havana.jpg">
+						</div>
+						<div class="song-name">
+							<span style="font-family: Poppins SemiBold, sans-serif;">Havana</span><br>
+							<span style="color: #cfcfcf; font-size: 0.9rem;">Camila Cabello</span>
+						</div>
+					</div>
+					<div class="heart"><a href=""><i class="far fa-heart"></i></a></div>
+				</div>
+
+			</div>
+			</div>
+	</div>
+
+	<div id = "player" class="player">
+		<div class="player-song-container">
+			<!-- <div class="player-song-image"> -->
+			<img src="./Images/Latest-Songs/I'll Wait.jpg">
+			<!-- </div> -->
+			<div class="player-song-details">
+				<span>I'll Wait</span><br>
+				<span class="player-artist">Kygo, Sasha Alex Sloan</span>
+			</div>
+			<div class="player-song-liker">
+				<a href=""><i class="far fa-heart"></i></a>
+				<a href=""><i class="fas fa-ban"></i></a>
+			</div>
+		</div>
+		<div class="player-controller">
+			<div class="player-controls">
+				<a href=""><i class="fas fa-random"></i></a>
+				<a href=""><i class="fas fa-step-backward"></i></a>
+				<a href=""><i class="fas fa-play"></i></a>
+				<a href=""><i class="fas fa-step-forward"></i></a>
+				<a href=""><i class="fas fa-redo-alt"></i></a>
+			</div>
+			<div class="player-slider">
+				<span>0:00</span>
+				<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+				<span>4:44</span>
+			</div>
+		</div>
+		<div class="player-other-utilities">
+			<a href=""><i class="fas fa-list"></i></a>
+			<a href=""><i class="fas fa-laptop"></i></a>
+			<a href=""><i class="fas fa-volume-up"></i></a>
+			<input class = "slider" style="width: 40% !important;" type="range" min="1" max="100" value="50" class="slider" id="myRange">
+			<a href=""><i class="fas fa-expand"></i></a>
+		</div>
+	</div>
+
+
+
+</body>
+</html>
