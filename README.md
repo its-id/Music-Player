@@ -13,7 +13,7 @@ as well. 😊😄
 https://user-images.githubusercontent.com/60315832/131210561-e0d7b81a-554e-40f9-9c60-45534aef17e9.mp4
 
 
-*You can visit 👉 [here](https://indrakant-dana.github.io/music-player)
+*You can visit 👉 [here](https://indrakant-dana.github.io/Music-Player/)
 to view the website.* 💛
 
 ## 
